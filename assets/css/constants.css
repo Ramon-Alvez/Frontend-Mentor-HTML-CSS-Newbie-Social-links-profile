@@ -1,0 +1,9 @@
+:root{
+    --hover-color: hsl(75, 94%, 57%);
+
+    --font-color: hsl(0, 0%, 100%);
+
+    --button: hsl(0, 0%, 20%);
+    --card: hsl(0, 0%, 12%);
+    --background: hsl(0, 0%, 8%);
+}

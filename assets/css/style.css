@@ -1,0 +1,81 @@
+body{
+    background-color: var(--background);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center; 
+    font-family: 'Inter', sans-serif;
+}
+
+.card {
+    background-color: var(--card);
+    width: 300px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 30px;
+    }
+
+    .card .perfil .avatar{
+        width: 70px;
+        border-radius: 50%;
+    }
+
+    .card .perfil .nome{
+        color: var(--font-color);
+        margin-top: 20px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .card .perfil .localizacao{
+        color: var(--hover-color);
+        margin-top: 5px;
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .card .perfil .descricao{
+        color: var(--font-color);
+        margin-top: 30px;
+        font-size: 12px;
+}
+
+.redes {
+    text-align: center;
+    margin-top: 20px;
+    }
+
+    .redes .lista .redes-item{
+        background-color: var(--button);
+        width: 100%;
+        margin-bottom: 12px;
+        padding: 15px;
+        border-radius: 6px;  
+
+        color: var(--font-color);
+        font-size: 12px;
+        font-weight: 700; 
+    }
+
+    .redes .lista .redes-item:hover{
+        background-color: var(--hover-color);
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+        color: var(--background);    
+}
+
+.rodape{
+    margin: 20px;
+    }
+    .attribution {
+        font-size: 11px;
+        text-align: center;
+        color: var(--font-color); 
+    }
+
+    .attribution a {
+        color: hsl(228, 45%, 44%);
+}
