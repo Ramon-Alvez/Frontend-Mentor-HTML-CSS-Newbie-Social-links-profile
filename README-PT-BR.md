@@ -65,8 +65,8 @@ Aqui esta alguns prints da página
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- URL da solução: https://www.frontendmentor.io/solutions/resoluo---social-links-profile-html5-e-css-2-newbie-qazeKm_Y1X
+- URL do Site: https://ramon-alvez.github.io/Social-links-profile-Frontend-Mentor/
 
 [Índice](#conteúdo) - Clique para voltar para o índice "Conteúdo"
 

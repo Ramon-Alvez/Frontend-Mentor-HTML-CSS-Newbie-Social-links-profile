@@ -67,8 +67,8 @@ Here some pics of the solution
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://www.frontendmentor.io/solutions/resoluo---social-links-profile-html5-e-css-2-newbie-qazeKm_Y1X
+- Live Site URL: https://ramon-alvez.github.io/Social-links-profile-Frontend-Mentor/
 
 [Table of contents](#table-of-contents) - Click to return to the index "Table of contents"
 
