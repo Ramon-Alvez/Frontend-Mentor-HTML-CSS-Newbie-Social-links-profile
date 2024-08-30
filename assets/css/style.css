@@ -8,18 +8,26 @@ body{
     font-family: 'Inter', sans-serif;
 }
 
+main{
+    margin: 0 10px;
+}
+
 .card {
     background-color: var(--card);
-    width: 300px;
+    min-width: 300px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 20px 30px;
+    padding: 40px;
+    }
+
+    .card .perfil{
+        padding: 0 20px;
     }
 
     .card .perfil .avatar{
-        width: 70px;
+        width: 80px;
         border-radius: 50%;
     }
 
@@ -27,44 +35,44 @@ body{
         color: var(--font-color);
         margin-top: 20px;
         font-size: 20px;
-        font-weight: 600;
+        font-weight: 700;
     }
 
     .card .perfil .localizacao{
         color: var(--hover-color);
-        margin-top: 5px;
+        margin-top: 10px;
         font-size: 12px;
         font-weight: 600;
     }
 
     .card .perfil .descricao{
         color: var(--font-color);
-        margin-top: 30px;
-        font-size: 12px;
+        opacity: 80%;
+        margin-top: 25px;
+        font-size: 14px;
 }
 
 .redes {
-    text-align: center;
-    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 25px;
     }
 
-    .redes .lista .redes-item{
+    .redes .redes-item{
         background-color: var(--button);
-        width: 100%;
-        margin-bottom: 12px;
-        padding: 15px;
-        border-radius: 6px;  
+        padding: 15px;  
+        border-radius: 6px; 
 
         color: var(--font-color);
-        font-size: 12px;
-        font-weight: 700; 
+        font-size: 14px;
+        font-weight: 600; 
     }
 
-    .redes .lista .redes-item:hover{
+    .redes .redes-item:hover{
         background-color: var(--hover-color);
-        cursor: pointer;
-        transition: 0.3s ease-in-out;
-        color: var(--background);    
+        color: var(--background);   
+        transition: 0.5s ease-in-out;
 }
 
 .rodape{
